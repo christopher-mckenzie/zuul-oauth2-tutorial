@@ -1,0 +1,6 @@
+server:
+  port: 8092
+
+spring:
+  profiles.active: 'Unit'
+  application.name: 'base-application-2'
