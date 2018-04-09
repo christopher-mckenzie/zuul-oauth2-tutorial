@@ -1,0 +1,5 @@
+rootProject.name = 'zuul-oauth2-tutorial'
+
+includeBuild 'base-application-1'
+includeBuild 'base-application-2'
+includeBuild 'zuul-application'
