@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.RestController
 @Slf4j
 class SampleController {
 
-    @RequestMapping('/hello')
-    String hello(@RequestParam('value') String value){
-        log.info "value passed: $value"
-        return "Hello $value"
+    @RequestMapping('/test')
+    String hello(){
+        log.info 'hello from app 1'
+        return "Hello from app 1"
     }
 }

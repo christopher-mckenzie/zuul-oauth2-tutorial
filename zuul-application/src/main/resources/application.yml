@@ -1,6 +1,0 @@
-server:
-  port: 8090
-
-spring:
-  profiles.active: 'Unit'
-  application.name: 'zuul-application'

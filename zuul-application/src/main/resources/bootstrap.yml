@@ -1,0 +1,19 @@
+spring:
+  profiles.active: 'dev'
+  application.name: 'zuul-application'
+  cloud:
+    config:
+      server:
+        bootstrap: true
+        git:
+          uri: https://github.com/christopher-mckenzie/zuul-oauth2-tutorial-config
+          search-paths: '{application}'
+        health:
+          enabled: false
+
+server.port: 8090
+
+security:
+  user:
+    name: test
+    password: test
